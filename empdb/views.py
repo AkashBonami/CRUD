@@ -48,4 +48,6 @@ def remove_emp(request, pk):
         'employees': employee,
     }
 
+    print("Hello")
+
     return render(request, 'delete.html', context)
